@@ -112,6 +112,9 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px; 
+    overflow: hidden;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .gallery img{
@@ -125,29 +128,29 @@ button:hover {
 }
 
 .column1{
-    transform: translate(-37rem,-6rem);
+    transform: translate(-37rem,0rem);
 }
 
 .column2{
-    transform: translate(-25rem,-35rem);
+    transform: translate(-25rem,-28rem);
 }
 
 .column3{
-    transform: translate(-13rem,-60rem);
+    transform: translate(-13rem,-55rem);
 }
 
 .column4{
-    transform: translate(0rem,-89rem);
+    transform: translate(0rem,-83rem);
 
 }
 .column5{
-    transform: translate(13rem,-126.5rem);
+    transform: translate(13rem,-121.2rem);
 }
 .column6 {
-    transform: translate(25rem,-167rem);
+    transform: translate(25rem,-161rem);
 }
 .column7 {
-    transform: translate(37rem,-205rem);
+    transform: translate(37rem,-198rem);
 }
 .bottom-nav{
     width: 100%;
