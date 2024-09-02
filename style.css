@@ -115,7 +115,7 @@ button:hover {
 }
 
 .gallery img{
-    width: 100%;
+    width: 170px;
     height: 250px;
     border-radius: 10px;
 }
